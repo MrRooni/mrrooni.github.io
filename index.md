@@ -1,4 +1,4 @@
-![Michael Fey at Apple Park](/media/MrRooni at Apple Park.jpg =250x)
+![Michael Fey at Apple Park](/media/MrRooni at Apple Park.jpg)
 
 Hello! This is really just a jumping off point for a bunch of places where you might find me online:
 
