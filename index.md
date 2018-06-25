@@ -8,6 +8,7 @@ Hello! This is really just a jumping off point for a bunch of places where you m
 - [MrRooni @ 500px](http://500px.com/MrRooni)
 - [MrRooni @ Keybase](https://keybase.io/mrrooni)
 - [Michael Fey @ LinkedIn](https://www.linkedin.com/in/michaelpfey/)
+- [MrRooni @ PlayStation](https://my.playstation.com/profile/MrRooni)
 - [1Password, the best password manager](https://1password.com)
 
 ## Getting In Touch
