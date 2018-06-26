@@ -12,7 +12,7 @@ $header-bg-color-secondary: #493f6c !default;
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, #493f6c, #2c364b);
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
     padding: 5rem 6rem;
