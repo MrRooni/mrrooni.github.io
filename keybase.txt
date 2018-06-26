@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mrrooni
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mrrooni.com
+  * I am mrrooni (https://keybase.io/mrrooni) on keybase.
+  * I have a public key with fingerprint ED23 9DB4 23B8 A856 3526  8735 B6DD 781D 09F9 C73E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101bfb1e5e2a4832bbf0048927cfca1b18829079575386ee0a65afbea7229819f330a",
+      "fingerprint": "ed239db423b8a85635268735b6dd781d09f9c73e",
+      "host": "keybase.io",
+      "key_id": "b6dd781d09f9c73e",
+      "kid": "0101bfb1e5e2a4832bbf0048927cfca1b18829079575386ee0a65afbea7229819f330a",
+      "uid": "c1d57ce3fa91925006f115d57fe85d00",
+      "username": "mrrooni"
+    },
+    "service": {
+      "hostname": "mrrooni.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1529973516,
+  "expire_in": 157680000,
+  "prev": "55cb3ceaabdda872c576271a98c6524fcfe6daf0dcf7e54d10a78fd00d3a3a8e",
+  "seqno": 49,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJbbA1BGMdP3dWlouW4Rmx7SKrYmd3Z3Tke3ElEipYKKiezM7O1cbp7
+7G5bVZdGBGkTSuISQkJd4vLilkgjtJSkzhtCKAn6ICSk0qARDbMNDxKP5mUy3/z+
+//m+f6Z1WN9IZsburs4nP6KL4xnplsMVkXWgfmiNZLqsWorXSBt578aTjPtBYqPN
+pLgkAxmYlgk44pCohgJN05Jl1cBQpxYlwASGAbGsY6QjxdA4l4mGiGVyokOIDYAt
+RZGJVCBZtlPGvZRnO4Gw5QwqmJkqVEyDGEhTENQMXUGmxphuACZjC1Nd4UK4wfVD
+hWjOJD6fYbuiJg6J3vb+wf/nvit67ShgSKdcsQgGGCJZ1iwAkKhZ3EBMlkPQ555D
+yrmgyz3PdR1b2lYgiWKlTXmYazjI38AM6pYLZcpzA5e6SXGxIQhSfjwUBtWpkKzi
+ZuK3R8K0HSZSFIpK7vm260hxIEga2KEpQBBjESHQCiS+OWV7PGGHBNI1QxYrfIdX
+CkuEqKlQTojJGDF0SAUBdUCwQTUEVYtaXGPEkhm1dI5UBmSiG5YYkilEIUaYsc83
+Oa4UV7Hok5QJT98uc0hQ4XFp293m0n6RjMzIgP59wu8VyRw84s+nu9wzKHLmUG7R
+zayuO91NR7O+HTjJ7hVcLx19v6dzTTseG6uPdb+fVbq/owFNWNHYvmgOfvqYerNP
+X4Uns19O//D24IM65+twD5ad2qHm5C48X39j1ZNr3fTVvtGT3xwoflB6/GfRp/zu
+JdOX19161h49Ab+i9XNkq/jC2s5LeeN3vfi+Z97rplFVVeM+l2S31W5PFs9fFtSd
+e/Qjd2ZLzcv89NyidMs0VXUnfbmdHFniF9aWn2/s+liY7ji04nN0fDJ/yK62CVUx
+7ezNZS3PJ7bubjiTfhTLyakdfGzKxbyHR/ZGsxa829o2Jn9LT2zgpNqhU3fildUd
+Dc0TY1dWFzWtyls69tirtui+mb8AK9U+lw==
+=6fFD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrrooni
+
+==================================================================
