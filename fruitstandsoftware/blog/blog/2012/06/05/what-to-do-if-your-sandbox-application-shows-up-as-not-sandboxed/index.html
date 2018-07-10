@@ -91,7 +91,7 @@
 
 <div class="entry-content"><p>This afternoon I started working on turning <a href="http://nothirst.com/moneywell/">MoneyWell for Mac</a> into a sandboxed application for our next major release. I watched the <a href="https://developer.apple.com/devcenter/mac/app-sandbox/">intro videos</a>, checked the appropriate checkboxes in Xcode, ran MoneyWell, checked Activity Monitor and saw&hellip;</p>
 
-<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Activity-Monitor-1-1.jpg"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Activity-Monitor-1-1.jpg" alt="" /></a></p>
+<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Activity-Monitor-1-1.jpg"><img src="/fruitstandsoftware/blog/uploads/2012/06/Activity-Monitor-1-1.jpg" alt="" /></a></p>
 
 <p>Well crap. After a bit of unsuccessful searching on the <a href="https://devforums.apple.com/community/mac?view=discussions">Apple Dev Forums</a> I did some testing with <a href="http://twitter.com/kevinhoctor">Kevin Hoctor</a> and discovered that the <strong>Release</strong> configuration of MoneyWell was properly sandboxed. The only significant difference between the <strong>Release</strong> and <strong>Debug</strong> configurations was that one was code signed and one was not. Once we enabled code signing for the <strong>Debug</strong> configuration MoneyWell launched as a sandboxed app.</p>
 
