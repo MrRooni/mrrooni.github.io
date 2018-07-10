@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Quick and easy debugging of unrecognized selector sent to instance - Core Fruition</title>
+  <meta name="author" content="Michael Fey">
+
+  
+  <meta name="description" content="It&rsquo;s happened to all of us; we&rsquo;re merrily trucking down the development road, building and testing our app when all of sudden everything &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Core Fruition" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Core Fruition</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:fruitstandsoftware.com/" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Quick and Easy Debugging of Unrecognized Selector Sent to Instance</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-22T14:13:39-04:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>It&rsquo;s happened to all of us; we&rsquo;re merrily trucking down the development road, building and testing our app when all of sudden everything grinds to a screeching halt and the console tells us something like:</p>
+
+<p><strong>&ndash;[MoneyWellAppDelegate doThatThingYouDo]: unrecognized selector sent to instance 0xa275230</strong></p>
+
+<p>Looking at the Xcode backtrace doesn&rsquo;t seem to help either since it most likely looks like so:</p>
+
+<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.02.11-PM.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.02.11-PM.png" alt="" /></a></p>
+
+<p>At this point you start the hunt through your code looking to see who sent the -doThatThingYouDo message. You may find the answer right away and things may be all hunky dory, or you may spend the next hour trying to figure out where the hell that call is coming from.</p>
+
+<p>The good news is there is a better way. All you need to do is pop over to the Breakpoint Navigator, click the + button at the bottom and choose <strong>Add Symbolic Breakpoint&hellip;</strong></p>
+
+<p>In the <strong>Symbol</strong> field enter this symbol:</p>
+
+<pre><code>-[NSObject(NSObject) doesNotRecognizeSelector:]
+</code></pre>
+
+<p>Now when any instance of any object within your program is sent a message to which it does not respond you will be presented with a backtrace that takes you right to the point where that message was sent.</p>
+
+<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.09.04-PM.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.09.04-PM.png" alt="" /></a></p>
+
+<p>Cheers and happy debugging.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">MrRooni</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-22T14:13:39-04:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/cocoa/'>Cocoa</a>, <a class='category' href='/blog/categories/debugging/'>Debugging</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance/" data-via="" data-counturl="http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my/" title="Previous Post: XIBs, Container Views, and Auto Layout (oh my)">&laquo; XIBs, Container Views, and Auto Layout (oh my)</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/" title="Next Post: UITableView and NSFetchedResultsController: Updates Done Right">UITableView and NSFetchedResultsController: Updates Done Right &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/06/09/gcd-in-swift-it-just-works/">GCD in Swift: It Just Works</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk/">Sponsoring the WWDC 2013 Photo Walk</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/23/wwdc-2013-photo-walk/">WWDC 2013 Photo Walk</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/10/link-dump/">Link Dump</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/">UITableView and NSFetchedResultsController: Updates Done Right</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Michael Fey -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

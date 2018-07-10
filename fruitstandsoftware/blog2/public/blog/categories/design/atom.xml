@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Design | Core Fruition]]></title>
+  <link href="http://fruitstandsoftware.com//blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://fruitstandsoftware.com//"/>
+  <updated>2014-06-10T09:28:16-04:00</updated>
+  <id>http://fruitstandsoftware.com//</id>
+  <author>
+    <name><![CDATA[Michael Fey]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Custom Drawing Using drawRect, Part 1]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2009/12/18/custom-drawing-using-drawrect-part-1/"/>
+    <updated>2009-12-18T21:01:28-05:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2009/12/18/custom-drawing-using-drawrect-part-1</id>
+    <content type="html"><![CDATA[<p>One of the more advanced techniques for creating custom user interfaces on the Mac is the use of NSView&rsquo;s drawRect method.  Many answers to questions on StackOverflow and Apple&rsquo;s mailing lists include recommendations to &ldquo;just override drawRect and do the drawing yourself&rdquo;.  Some folks see this recommendation and their eyes glaze over, thinking that it&rsquo;s too advanced of a technique for them to wrap their heads around.  Over the next few days I&rsquo;m going to go over some basic techniques that can yield powerful results.</p>
+
+<p>Let&rsquo;s start by setting up the Xcode project that will be the basis of the rest of these posts.</p>
+
+<ul>
+<li><p>Open Xcode and create a new Cocoa Application project called DrawingSample.</p></li>
+<li><p>Create a new NSView subclass called CustomDrawingView.</p></li>
+<li><p>Open MainMenu.xib, add a new Custom View to the Main Window, set its class to be CustomDrawingView, and set it&rsquo;s autosizing flags as seen here:</p></li>
+</ul>
+
+
+<p><a href="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png" alt="DrawingSample IB Layout" /></a></p>
+
+<p>Save and Quit Interface Builder and switch back to Xcode.  Open CustomDrawingView.m, it should look like so:</p>
+
+<p>```objective-c</p>
+
+<pre><code>@implementation CustomDrawingView
+
+- (id)initWithFrame:(NSRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code here.
+    }
+    return self;
+}
+
+- (void)drawRect:(NSRect)dirtyRect {
+    // Drawing code here.
+}
+
+@end
+</code></pre>
+
+<p>```</p>
+
+<p>We&rsquo;re going to start (and finish) today with just a simple concept and some basic drawing that will set the stage for the future posts. All drawing in Cocoa is done by first setting up the environment in which you want to draw, and then doing the actual drawing. For instance, if we want to draw a blue box, we first have to setup the color blue, define the bounds of the box, and then draw it.  In this case we are using the NSRect that is passed to the drawRect method as the box we want to draw, and we setup the color blue by calling [[NSColor blueColor] set].  We then use the convenience method NSRectFill to fill the dirtyRect with the color blue.  Notice that we didn&rsquo;t pass the color to NSRectFill, we set it, and from then on anything we draw will be blue until we change the color.</p>
+
+<p>You can think of drawing in Cocoa much the same way as you would think of painting with a brush.  You dip your brush in a certain paint color, paint the shape you want to paint, and then dip your brush in a new color and paint some more.</p>
+
+<p>```objective-c</p>
+
+<pre><code>- (void)drawRect:(NSRect)dirtyRect {
+    [[NSColor blueColor] set];
+    NSRectFill(dirtyRect);
+}
+</code></pre>
+
+<p>```</p>
+
+<p>The preceding code, when run, will generate a view that looks like this:</p>
+
+<p><a href="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png" alt="NSRectFill" /></a>Now, this may not look like much, but in future posts we will build on these concepts and, hopefully, by the end have drawn some pretty cool and useful things.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Best Interface Builder Layout Ever]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2009/07/07/the-best-interface-builder-layout-ever/"/>
+    <updated>2009-07-07T11:58:30-04:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2009/07/07/the-best-interface-builder-layout-ever</id>
+    <content type="html"><![CDATA[<p>This morning I <a href="http://twitter.com/MrRooni/status/2515282668">posted a screenshot of my Interface Builder layout on Twitter</a>.  I didn&rsquo;t think much of it at the time, but I received <a href="http://twitter.com/HeroicAutobot/status/2515335910">enough</a> <a href="http://twitter.com/pbur/status/2515400970">positive</a> <a href="http://twitter.com/tesseractor/status/2515566160">feedback</a> on it that I decided to post it here for generations of future Cocoa developers to find.  The layout gets harder to work with the smaller your screen gets, but it works very well on my 24" display.  Another tip for working well with IB: keep it in it&rsquo;s own space and don&rsquo;t let other apps invade that space.  I find that when I can concentrate just on my IB windows without having to mentally block out background windows it makes my workflow much smoother.</p>
+
+<p><a href="http://fruitstandsoftware.com/blog/2009/07/the-best-interface-builder-layout-ever/new-project/"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/07/New-Project-1024x640.png" alt="IB Layout" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The $300 Million Button]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2009/02/13/the-300-million-button/"/>
+    <updated>2009-02-13T11:09:44-05:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2009/02/13/the-300-million-button</id>
+    <content type="html"><![CDATA[<p>I am continually amazed how some of the most basic design changes can have profound results.</p>
+
+<blockquote><p>It&rsquo;s hard to imagine a form that could be simpler: two fields, two buttons, and one link. Yet, it turns out this form was preventing customers from purchasing products from a major e-commerce site, to the tune of $300,000,000 a year. What was even worse: the designers of the site had no clue there was even a problem.</p></blockquote>
+
+<p>I was blown away by the revelation that of the 160,000 people that were requesting lost passwords every day only 25% of those people ever came back to complete their order.</p>
+
+<p><a href="http://www.uie.com/articles/three_hund_million_button">The $300 Million Button </a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

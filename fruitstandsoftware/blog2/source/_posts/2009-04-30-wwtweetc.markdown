@@ -1,0 +1,45 @@
+---
+author: Michael
+comments: true
+date: 2009-04-30 15:19:07+00:00
+layout: post
+slug: wwtweetc
+title: WWTweetC
+wordpress_id: 232
+categories:
+- Cocoa
+---
+
+I am currently in the process of madly coding up a new Twitter app that will hopefully be available before WWDC.  Before you groan about YATA (Yet Another Twitter App) let me tell you how mine will be different:  I don't expect it to have a life past June 13th.
+
+WWTweetC is an app specifically designed for folks attending WWDC.  It will filter your timeline and friends list down to folks also attending WWDC and allow you to find them easily, both inside of Moscone and out and about the streets of San Francisco.
+
+The app will have three parts:
+
+
+
+	
+  1. Your timeline, showing only tweets from folks also attending WWDC.
+
+	
+  2. Your Friends list, showing all your friends, but sorted by those attending the conference and those not.  If there's someone on your list that you know is attending the conference but (for some crazy reason) is not using WWTweetC you will have the option to filter in them and their tweets.
+
+	
+  3. The update screen.  The update screen will let you update your location inside of Moscone West (by selecting your location on a map of the conference center), update your location outside of Moscone West (using your current geospatial location), or post a new tweet.
+
+
+The way that I plan on accomplishing most of this app's functionality  is by hijacking your Twitter account's Location field.  When you sign in using WWTweetC it will prepend your location field with 'WWDC'.  Any location updates from that point on will replace your entire location field with 'WWDC <your current location>'.
+
+The success of this app is based on a few things:
+
+	
+  1. It being finished in a timely manner
+
+	
+  2. It getting accepted into the App Store before WWDC
+
+	
+  3. People actually using when we get there
+
+
+I plan on open sourcing the project on Google code so that anyone that wants to help out will be able to contribute to its success.  I'm not sure what the average turnaround time is for app submissions, so it's entirely possible that this app won't be available by WWDC, but at least the code will be available for anyone to compile and install on their device.  If you think that this is a worthwhile app please tweet this post, tell your friends, and keep an eye out for future project updates.
