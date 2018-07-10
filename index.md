@@ -15,3 +15,7 @@ Hello! This is really just a jumping off point for a bunch of places where you m
 ## Getting In Touch
 
 You can download [my vCard here](/media/Michael Fey.vcf). It contains both my work and personal email. My personal email can also be used for iMessage.
+
+## Fruit Stand Software
+
+For the longest time I had a site over at fruitstandsoftware.com. I've included that content here posthumously: [Fruit Stand Software](/fruitstandsoftware/)

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Debugging | Core Fruition]]></title>
+  <link href="http://fruitstandsoftware.com//blog/categories/debugging/atom.xml" rel="self"/>
+  <link href="http://fruitstandsoftware.com//"/>
+  <updated>2014-06-10T09:28:16-04:00</updated>
+  <id>http://fruitstandsoftware.com//</id>
+  <author>
+    <name><![CDATA[Michael Fey]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quick and easy debugging of unrecognized selector sent to instance]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance/"/>
+    <updated>2012-08-22T14:13:39-04:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s happened to all of us; we&rsquo;re merrily trucking down the development road, building and testing our app when all of sudden everything grinds to a screeching halt and the console tells us something like:</p>
+
+<p><strong>&ndash;[MoneyWellAppDelegate doThatThingYouDo]: unrecognized selector sent to instance 0xa275230</strong></p>
+
+<p>Looking at the Xcode backtrace doesn&rsquo;t seem to help either since it most likely looks like so:</p>
+
+<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.02.11-PM.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.02.11-PM.png" alt="" /></a></p>
+
+<p>At this point you start the hunt through your code looking to see who sent the -doThatThingYouDo message. You may find the answer right away and things may be all hunky dory, or you may spend the next hour trying to figure out where the hell that call is coming from.</p>
+
+<p>The good news is there is a better way. All you need to do is pop over to the Breakpoint Navigator, click the + button at the bottom and choose <strong>Add Symbolic Breakpoint&hellip;</strong></p>
+
+<p>In the <strong>Symbol</strong> field enter this symbol:</p>
+
+<pre><code>-[NSObject(NSObject) doesNotRecognizeSelector:]
+</code></pre>
+
+<p>Now when any instance of any object within your program is sent a message to which it does not respond you will be presented with a backtrace that takes you right to the point where that message was sent.</p>
+
+<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.09.04-PM.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/08/Screen-Shot-2012-08-22-at-2.09.04-PM.png" alt="" /></a></p>
+
+<p>Cheers and happy debugging.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPhone Memory Debugging with NSZombie and Instruments]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2010/01/15/iphone-memory-debugging-with-nszombie-and-instruments/"/>
+    <updated>2010-01-15T08:23:10-05:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2010/01/15/iphone-memory-debugging-with-nszombie-and-instruments</id>
+    <content type="html"><![CDATA[<p>NSZombie is easily one of the most valuable tools in any Cocoa developer&rsquo;s toolbox. Check out Mark&rsquo;s blog for a great introduction on using NSZombie from within Instruments:</p>
+
+<p><a href="http://www.markj.net/iphone-memory-debug-nszombie/">iPhone Memory Debugging with NSZombie and Instruments | markjnet</a>.</p>
+
+<p>Thanks to Jeff LaMarche for <a href="http://iphonedevelopment.blogspot.com/2010/01/nszombies-in-instruments.html">directing me to Mark&rsquo;s blog</a> in the first place.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Quick and Easy Drawing Performance Debugging with NSShowAllDrawing]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2009/07/10/quick-and-easy-drawing-performance-debugging-with-nsshowalldrawing/"/>
+    <updated>2009-07-10T10:59:06-04:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2009/07/10/quick-and-easy-drawing-performance-debugging-with-nsshowalldrawing</id>
+    <content type="html"><![CDATA[<p>While watching one of the WWDC09 session videos I was informed of a great tip that I had been previously unknown to me: Pass <code>-NSShowAllDrawing YES</code> as an argument to your application in Xcode to see a visual representation of the drawing that your application performs as it runs.</p>
+
+<p>To illustrate how NSShowAllDrawing works and the issues it can help you correct I&rsquo;ve put together two videos.  The first shows my app, Bezipped, in its current 1.0 state and its current drawing behavior.</p>
+
+<p>This second video shows how I improved the drawing in Bezipped simply by setting the top-level container to be backed by a Core Animation layer:</p>
+
+<p>I highly recommend giving your app a spin with NSShowAllDrawing if you haven&rsquo;t already, it was certainly a real eye-opener for me.  There are some additional resources for debugging your drawing performance on OS X (as pointed out to me by <a href="http://twitter.com/AndrePang">André Pang</a>) provided by Apple here: <a href="http://developer.apple.com/documentation/Performance/Conceptual/Drawing/Articles/MeasuringPerformance.html#//apple_ref/doc/uid/20001875-98880">Drawing Performance Guidelines: Measuring Drawing Performance</a></p>
+
+<p>Lastly, both <a href="http://twitter.com/alancse">Alan Rogers</a> and <a href="http://twitter.com/SteveStreza">Steve Streza</a> pointed me towards Quartz Debug.app (included with the developer tools) as another means to see similar redrawing behavior.  I found Quartz Debug&rsquo;s options to be a bit heavy-handed as the drawing performance of the entire OS was shown instead of just my app, but your mileage may vary.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bypassing the Trouble Caused by Updating an iPhone App Provisioning Profile]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2009/06/19/bypassing-the-trouble-caused-by-updating-an-iphone-app-provisioning-profile/"/>
+    <updated>2009-06-19T13:45:33-04:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2009/06/19/bypassing-the-trouble-caused-by-updating-an-iphone-app-provisioning-profile</id>
+    <content type="html"><![CDATA[<p><strong>[UPDATE]</strong> After many discussions on Twitter and many recommendations by different folks, I think that we have determined that the method outlined below is not necessary.  <a href="http://twitter.com/heymac">Mike Taylor</a> has hit upon what appears to be a foolproof method for getting around the trouble caused by updating an iPhone app provisioning profile, and best of all, he did it in 140 characters:</p>
+
+<blockquote><p>@<a href="http://twitter.com/kalperin">kalperin</a> @<a href="http://twitter.com/MrRooni">MrRooni</a> Delete old profile from Organizer. Download new profile &lsquo;n drag to organizer. Restart Xcode. Choose new profile in target</p></blockquote>
+
+<p>Many thanks to Mike for helping me out here, I owe you a beer at WWDC10.  For those of you interested in the more masochistic way to get around the issues, feel free to continue reading:</p>
+
+<p>A note before I begin: Everything below was done with the final build of the iPhone OS 3.0 SDK and I was building an app using the 2.2.1 frameworks.</p>
+
+<p>I recently acquired a new iPod touch to use a development device.  One of the first things that I wanted to do was get my existing project up and running on the device so I headed over to the iPhone Development Program Portal to update my provisioning profile.</p>
+
+<p>After adding the new device to my app&rsquo;s provisioning profile I downloaded the updated profile and installed it into Xcode and onto the device via the Organizer.  So far so good, everything up until this point worked exactly as I expected it to.</p>
+
+<p>Switching back to my project I changed my build settings to be a Release build under 2.2.1 on the device.  The app built fine, but I got an error when it tried to install the app onto the device, something error akin to &ldquo;This device doesn&rsquo;t contain the provisioning profile with which this app was built&rdquo;.  Thinking that maybe Xcode just hadn&rsquo;t seen the new profile yet I cleaned all targets in my project, restarted Xcode and tried again.  No dice, same error as before.</p>
+
+<p>I then proceeded to delete all versions of the profile from the organizer and re-installed the new one.  My assumption was that once Xcode saw that the old profile didn&rsquo;t exists anymore it would switch over and use the new one.  I cleaned all targets and built again.  This time I was treated to a different error: "Code Sign error: Provisioning profile &lsquo;3E6AA725-6534-46F8-B9CE-D19AC9FD854B&rsquo; can&rsquo;t be found"</p>
+
+<p>After a bit of Googling I discovered that Xcode stores the ID of the provisioning profile in its project.pbxproj file.  This discovery led me to the fix:</p>
+
+<ol>
+<li><p> Close your Xcode project</p></li>
+<li><p> Navigate to your project folder in the Finder</p></li>
+<li><p> Right click on your .xcodeproj file and &lsquo;Show Package Contents&rsquo;</p></li>
+<li><p> Drag the project.pbxproj file to Xcode (or any plain text editor)</p></li>
+<li><p> Perform a search for the term &lsquo;provision&rsquo; to find the PROVISIONING_PROFILE entry.</p></li>
+<li><p> Copy the existing profile ID and paste it into the find field of a find and a replace dialog.</p></li>
+<li><p> Open up the Organizer window (Window menu > Organizer) and navigate to your new profile under IPHONE DEVELOPMENT > Provisioning Profiles</p></li>
+<li><p> Click on your provisioning profile and copy its Profile Identifier</p></li>
+<li><p> Paste the string into the replace field in your open find and replace dialog.</p></li>
+<li><p>. Replace all instances of the identifier, save the file, close it, and reopen your Xcode project.</p></li>
+<li><p>. That should do it, build and go to run your app on your new device.</p></li>
+</ol>
+
+
+<p>Now there is a great possibility that I am going WAY overboard here and missing a very obvious way to accomplish the same solution.  If that&rsquo;s the case please let me know in the comments.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[stevenf.com: How To Report a Bug]]></title>
+    <link href="http://fruitstandsoftware.com//blog/2008/09/08/stevenfcom-how-to-report-a-bug/"/>
+    <updated>2008-09-08T12:10:07-04:00</updated>
+    <id>http://fruitstandsoftware.com//blog/2008/09/08/stevenfcom-how-to-report-a-bug</id>
+    <content type="html"><![CDATA[<p>Steven Frank (of <a href="http://panic.com/">Panic</a> fame) has posted a great article on his site: <a href="http://stevenf.com/archive/reporting-bugs-in-mac-os-x-apps.php">How to report a bug in a Mac OS X application</a></p>
+
+<p>Here&rsquo;s the teaser:</p>
+
+<blockquote><p>Bugs happen. It&rsquo;s a fact of life. Although you may not be in the mood at the exact moment they strike, the best possible thing you can do is file a bug report with the developer. You may not get an immediate solution, but you will provide extremely valuable forensic information that should help the developer fix the problem over the long term. Here&rsquo;s how to report a bug effectively.</p></blockquote>
+
+<p>Developers hate having bugs discovered by their users, but hate getting lousy bug reports even more.  I&rsquo;m tempted to include a variant of this article in the Help section of my next app under the heading, <strong>What should I do if I think I&rsquo;ve found a bug?</strong></p>
+]]></content>
+  </entry>
+  
+</feed>
