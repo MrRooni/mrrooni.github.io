@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Downloads | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/downloads/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/downloads/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Awesomeness That Is Bodega]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/01/17/the-awesomeness-that-is-bodega/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/the-awesomeness-that-is-bodega/"/>
     <updated>2010-01-17T12:18:01-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/01/17/the-awesomeness-that-is-bodega</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/the-awesomeness-that-is-bodega</id>
     <content type="html"><![CDATA[<p><a href="http://appbodega.com/"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/Bodega-300x300.png" alt="" /></a>Let&rsquo;s get one thing out of the way first thing: I&rsquo;m a big fan of <a href="http://appbodega.com/">Bodega</a> and have been since I heard about it firsthand from the guys at <a href="http://centrix.ca/">centrix.ca</a> during WWDC 2009.</p>
 
 <p>Bodega is a free Mac application that helps you discover and download Mac applications. It is built in the spirit of great software sites like <a href="http://www.macupdate.com/">MacUpdate</a>, but takes the experience and puts a great looking Cocoa wrapper around it. Make no mistake, this project is a big undertaking with a lot of moving parts and a lot of coordination between those parts. Yet with steady progress and determination these guys are really crafting something cool.</p>
@@ -42,9 +42,9 @@
   
   <entry>
     <title type="html"><![CDATA[ParseKit]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/07/06/parsekit/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/07/06/parsekit/"/>
     <updated>2009-07-06T13:19:05-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/07/06/parsekit</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/07/06/parsekit</id>
     <content type="html"><![CDATA[<p>While I don&rsquo;t have an immediate need for ParseKit, I&rsquo;m fairly certain that it&rsquo;s going to come in very handy in the future.  Written by <a href="https://twitter.com/itod">Todd Ditchendorf</a>, the framework offers:</p>
 
 <blockquote><ol>
@@ -60,33 +60,33 @@
   
   <entry>
     <title type="html"><![CDATA[UICatalog]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/04/03/uicatalog/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/04/03/uicatalog/"/>
     <updated>2009-04-03T16:15:03-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/04/03/uicatalog</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/04/03/uicatalog</id>
     <content type="html"><![CDATA[<p>Reading through <a href="http://www.amazon.com/Beginning-iPhone-Development-Exploring-SDK/dp/1430216263/">Beginning iPhone Development</a> by <a href="http://twitter.com/davemark">Dave Mark</a> and <a href="http://twitter.com/jeff_lamarche">Jeff LaMarche</a> I came across his handy link to a fantastic piece of iPhone development sample code: <a href="https://developer.apple.com/iphone/library/samplecode/UICatalog/index.html">UICatalog</a>.</p>
 
 <p>UICatalog is an Xcode project that uses all of the UI elements contained in iPhone&rsquo;s UIKit framework.  There are quite a few great nuggets that this code produces such as:</p>
 
-<p><a href="http://fruitstandsoftware.com/blog/2009/04/uicatalog/picture-1/"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/04/picture-1.png" alt="UICatalog1" /></a><a href="http://fruitstandsoftware.com/blog/2009/04/uicatalog/picture-2/"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/04/picture-2.png" alt="UICatalog2" /></a><a href="http://fruitstandsoftware.com/blog/2009/04/uicatalog/picture-3/"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/04/picture-3.png" alt="UICatalog3" /></a></p>
+<p><a href="https://mrrooni.com/fruitstandsoftware/blog/2009/04/uicatalog/picture-1/"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/04/picture-1.png" alt="UICatalog1" /></a><a href="https://mrrooni.com/fruitstandsoftware/blog/2009/04/uicatalog/picture-2/"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/04/picture-2.png" alt="UICatalog2" /></a><a href="https://mrrooni.com/fruitstandsoftware/blog/2009/04/uicatalog/picture-3/"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/04/picture-3.png" alt="UICatalog3" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Typinator and Xcode]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/03/18/typinator-and-xcode/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/03/18/typinator-and-xcode/"/>
     <updated>2009-03-18T12:59:12-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/03/18/typinator-and-xcode</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/03/18/typinator-and-xcode</id>
     <content type="html"><![CDATA[<p>I recently acquired a free license of <a href="http://www.macility.com/products/typinator/">Typinator</a> through <a href="http://www.macheist.com/">MacHeist</a> and have been loving it.  I put together a set of abbreviations for the text macros that  Xcode provides and it has made my coding life much easier.  A few folks have asked why I&rsquo;m not using xctxtmacros and the truth is that I didn&rsquo;t know about them.  Either way, Typinator is working great.</p>
 
-<p>You can download my set of <a href="http://fruitstandsoftware.com/blog/?attachment_id=212">Xcode Abbreviations here</a>.  Please note that it&rsquo;s extremely limited as I only included those macros that I need most often.  Leave a comment if there are any that you think I&rsquo;m missing.</p>
+<p>You can download my set of <a href="https://mrrooni.com/fruitstandsoftware/blog/?attachment_id=212">Xcode Abbreviations here</a>.  Please note that it&rsquo;s extremely limited as I only included those macros that I need most often.  Leave a comment if there are any that you think I&rsquo;m missing.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[cocoaFusion:The new podcast all about Cocoa]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/01/11/cocoafusionthe-new-podcast-all-about-cocoa/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/01/11/cocoafusionthe-new-podcast-all-about-cocoa/"/>
     <updated>2009-01-11T10:15:01-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/01/11/cocoafusionthe-new-podcast-all-about-cocoa</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/01/11/cocoafusionthe-new-podcast-all-about-cocoa</id>
     <content type="html"><![CDATA[<p>For those of you waiting for the next great thing in Cocoa development podcasts I humbly submit <a href="http://www.cocoafusion.net/">cocoaFusion:</a>.</p>
 
 <p><a href="http://www.cocoafusion.net/">cocoaFusion:</a> is hosted by Kevin Hoctor of <a href="http://nothirst.com/moneywell/">MoneyWell</a> fame, and Danny Greg the lead developer on <a href="http://www.realmacsoftware.com/">Realmac Software</a>&rsquo;s most recent release, <a href="http://www.realmacsoftware.com/littlesnapper/">LittleSnapper</a>.  The pair decided to start a podcast of their own after being introduced on one of <a href="http://twitter.com/macdevnet">Scotty&rsquo;s</a> excellent <a href="http://www.mac-developer-network.com/">Mac Developer Network</a> shows.</p>

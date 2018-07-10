@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Design | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/design/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/design/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Custom Drawing Using drawRect, Part 1]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/12/18/custom-drawing-using-drawrect-part-1/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/12/18/custom-drawing-using-drawrect-part-1/"/>
     <updated>2009-12-18T21:01:28-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/12/18/custom-drawing-using-drawrect-part-1</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/12/18/custom-drawing-using-drawrect-part-1</id>
     <content type="html"><![CDATA[<p>One of the more advanced techniques for creating custom user interfaces on the Mac is the use of NSView&rsquo;s drawRect method.  Many answers to questions on StackOverflow and Apple&rsquo;s mailing lists include recommendations to &ldquo;just override drawRect and do the drawing yourself&rdquo;.  Some folks see this recommendation and their eyes glaze over, thinking that it&rsquo;s too advanced of a technique for them to wrap their heads around.  Over the next few days I&rsquo;m going to go over some basic techniques that can yield powerful results.</p>
 
 <p>Let&rsquo;s start by setting up the Xcode project that will be the basis of the rest of these posts.</p>
@@ -29,7 +29,7 @@
 </ul>
 
 
-<p><a href="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png" alt="DrawingSample IB Layout" /></a></p>
+<p><a href="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png" alt="DrawingSample IB Layout" /></a></p>
 
 <p>Save and Quit Interface Builder and switch back to Xcode.  Open CustomDrawingView.m, it should look like so:</p>
 
@@ -70,26 +70,26 @@
 
 <p>The preceding code, when run, will generate a view that looks like this:</p>
 
-<p><a href="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png" alt="NSRectFill" /></a>Now, this may not look like much, but in future posts we will build on these concepts and, hopefully, by the end have drawn some pretty cool and useful things.</p>
+<p><a href="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png" alt="NSRectFill" /></a>Now, this may not look like much, but in future posts we will build on these concepts and, hopefully, by the end have drawn some pretty cool and useful things.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Best Interface Builder Layout Ever]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/07/07/the-best-interface-builder-layout-ever/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/07/07/the-best-interface-builder-layout-ever/"/>
     <updated>2009-07-07T11:58:30-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/07/07/the-best-interface-builder-layout-ever</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/07/07/the-best-interface-builder-layout-ever</id>
     <content type="html"><![CDATA[<p>This morning I <a href="http://twitter.com/MrRooni/status/2515282668">posted a screenshot of my Interface Builder layout on Twitter</a>.  I didn&rsquo;t think much of it at the time, but I received <a href="http://twitter.com/HeroicAutobot/status/2515335910">enough</a> <a href="http://twitter.com/pbur/status/2515400970">positive</a> <a href="http://twitter.com/tesseractor/status/2515566160">feedback</a> on it that I decided to post it here for generations of future Cocoa developers to find.  The layout gets harder to work with the smaller your screen gets, but it works very well on my 24" display.  Another tip for working well with IB: keep it in it&rsquo;s own space and don&rsquo;t let other apps invade that space.  I find that when I can concentrate just on my IB windows without having to mentally block out background windows it makes my workflow much smoother.</p>
 
-<p><a href="http://fruitstandsoftware.com/blog/2009/07/the-best-interface-builder-layout-ever/new-project/"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/07/New-Project-1024x640.png" alt="IB Layout" /></a></p>
+<p><a href="https://mrrooni.com/fruitstandsoftware/blog/2009/07/the-best-interface-builder-layout-ever/new-project/"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/07/New-Project-1024x640.png" alt="IB Layout" /></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The $300 Million Button]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/02/13/the-300-million-button/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/02/13/the-300-million-button/"/>
     <updated>2009-02-13T11:09:44-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/02/13/the-300-million-button</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/02/13/the-300-million-button</id>
     <content type="html"><![CDATA[<p>I am continually amazed how some of the most basic design changes can have profound results.</p>
 
 <blockquote><p>It&rsquo;s hard to imagine a form that could be simpler: two fields, two buttons, and one link. Yet, it turns out this form was preventing customers from purchasing products from a major e-commerce site, to the tune of $300,000,000 a year. What was even worse: the designers of the site had no clue there was even a problem.</p></blockquote>

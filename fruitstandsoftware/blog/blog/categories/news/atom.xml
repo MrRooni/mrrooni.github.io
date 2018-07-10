@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: News | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/news/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/news/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WWDC 2012 Photo Walk Wrap-Up]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
     <updated>2012-06-21T10:57:45-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
     <content type="html"><![CDATA[<p><a href="http://500px.com/photo/8672882"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Oakland-Bay-Bridge-Pano.jpg" alt="" /></a></p>
 
 <p>The <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">WWDC 2012 Photo Walk sponsored by 500px</a> was a huge success! We had an incredible turnout that, quite honestly, blew me away.</p>
@@ -38,9 +38,9 @@
   
   <entry>
     <title type="html"><![CDATA[Indie+Relief an Amazing Success!]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/01/22/indierelief-an-amazing-success/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/01/22/indierelief-an-amazing-success/"/>
     <updated>2010-01-22T10:31:24-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/01/22/indierelief-an-amazing-success</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/01/22/indierelief-an-amazing-success</id>
     <content type="html"><![CDATA[<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/ir_500.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/ir_500.png" alt="Indie+Relief Banner" /></a></p>
 
 <p>Many congrats to everyone who participated in Indie+Relief. Over $143,872 was raised for the people of Haiti through various charities!</p>
@@ -51,9 +51,9 @@
   
   <entry>
     <title type="html"><![CDATA[Indie+Relief]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/01/17/indierelief/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/indierelief/"/>
     <updated>2010-01-17T10:23:13-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/01/17/indierelief</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/indierelief</id>
     <content type="html"><![CDATA[<p><a href="http://indierelief.com/"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/ir_500.png" alt="Indie+Relief Banner" /></a></p>
 
 <p>For those that may not have heard, <a href="http://twitter.com/justin">Justin Williams</a> has organized a great effort to provide financial relief to the people of Haiti. Set to take place throughout the day on January 20th, all the proceeds from the sale of participating software will be donated to Haiti. We here at <a href="http://www.nothirst.com/">No Thirst Software</a> are participating with sales of <a href="http://www.nothirst.com/moneywell/">MoneyWell</a> and <a href="http://www.nothirst.com/debtquencher/">Debt Quencher</a>. For a full list of participating software please check out the <a href="http://www.indierelief.com/">Indie+Relief</a> website.</p>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Well That Didn't Take Long]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/06/29/well-that-didnt-take-long/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/06/29/well-that-didnt-take-long/"/>
     <updated>2009-06-29T15:22:01-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/06/29/well-that-didnt-take-long</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/06/29/well-that-didnt-take-long</id>
     <content type="html"><![CDATA[<p>As you can see we are now flying under a new banner: Core Fruition!  In less than two hours from my last post I had <a href="http://twitter.com/pgor/status/2389414409">the answer</a> to my naming quandary from <a href="http://twitter.com/pgor">Paul Goracke</a>, and I can&rsquo;t thank him enough.</p>
 
 <p>When I saw Paul&rsquo;s suggestion my first thought was, &ldquo;That&rsquo;s an awesome name!&rdquo;. My second thought was, &ldquo;That sounds really close to <a href="http://www.coreint.org/">another popular Cocoa site</a>&hellip;&rdquo;  Not wanting to step on any toes, I decided to throw the name into some focus testing, asking a bunch of high ranking folks for their gut reaction.  Here are the results:</p>
@@ -91,16 +91,16 @@
   
   <entry>
     <title type="html"><![CDATA[I am Not a Name Thief]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/06/29/i-am-not-a-name-thief/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/06/29/i-am-not-a-name-thief/"/>
     <updated>2009-06-29T10:25:41-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/06/29/i-am-not-a-name-thief</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/06/29/i-am-not-a-name-thief</id>
     <content type="html"><![CDATA[<p>Not intentionally, anyway.  First a little back story: When I was trying to decide on a name for this blog I would come up with what I thought was a great name and then plug it into Google to make sure that it wasn&rsquo;t already taken.  Most of the time I would find a blog that already had the same name and move on to a new round of brainstorming.  When I arrived at the name &ldquo;Cocoa Nut&rdquo; I thought for sure it would be taken.  I did a <a href="http://www.google.com/search?q=%22cocoa+nut%22">quick search</a> but found no hits for that name having anything to do with programming in the first few pages of search results.  I thought, much to my amazement, that I had struck blog naming gold, I couldn&rsquo;t believe my luck!</p>
 
-<p>[caption id=&ldquo;attachment_262&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;632&rdquo; caption=&ldquo;Apparently my brain decided to ignore the third entry on the first page of Google results&rdquo;]<a href="http://fruitstandsoftware.com/blog/2009/06/i-am-not-a-name-thief/cocoa-nut-in-google/"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/06/Cocoa-Nut-in-Google.png" alt="Apparently my brain decided to ignore the third entry on the first page of Google results" /></a>[/caption]</p>
+<p>[caption id=&ldquo;attachment_262&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;632&rdquo; caption=&ldquo;Apparently my brain decided to ignore the third entry on the first page of Google results&rdquo;]<a href="https://mrrooni.com/fruitstandsoftware/blog/2009/06/i-am-not-a-name-thief/cocoa-nut-in-google/"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/06/Cocoa-Nut-in-Google.png" alt="Apparently my brain decided to ignore the third entry on the first page of Google results" /></a>[/caption]</p>
 
 <p>Fast forward to last week.  I was looking up some show notes on the <a href="http://www.mac-developer-network.com/">Mac Developer Network</a> when I noticed the blog roll on the side of the page.  Curious if my blog was listed there (I had submitted it to Scotty a while back) I took a quick glance through the list and saw <a href="http://cocoa-nut.de/">Cocoa Nut</a> sandwiched between <a href="http://www.wilshipley.com/blog/">Call Me Fishmeal</a> and <a href="http://cocoasamurai.blogspot.com/">Cocoa Samurai</a>.  I clicked through expecting to be greeted with my blog&rsquo;s homepage but was instead taken to a different Cocoa Nut.</p>
 
-<p>[caption id=&ldquo;attachment_263&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;762&rdquo; caption=&ldquo;The original Cocoa Nut&rdquo;]<a href="http://fruitstandsoftware.com/blog/2009/06/i-am-not-a-name-thief/original-cocoa-nut-header/"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/06/Original-Cocoa-Nut-Header.png" alt="The original Cocoa Nut" /></a>[/caption]</p>
+<p>[caption id=&ldquo;attachment_263&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;762&rdquo; caption=&ldquo;The original Cocoa Nut&rdquo;]<a href="https://mrrooni.com/fruitstandsoftware/blog/2009/06/i-am-not-a-name-thief/original-cocoa-nut-header/"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/06/Original-Cocoa-Nut-Header.png" alt="The original Cocoa Nut" /></a>[/caption]</p>
 
 <p>Astounded, I quickly checked his archives, sure that he had shown up on the scene after me and had not been thorough enough in his search for naming collisions.  2006.  His first post was from 2006.  My first post was in 2008.  I was sunk.</p>
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Photography | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/photography/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/photography/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WWDC 2012 Photo Walk Wrap-Up]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
     <updated>2012-06-21T10:57:45-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
     <content type="html"><![CDATA[<p><a href="http://500px.com/photo/8672882"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Oakland-Bay-Bridge-Pano.jpg" alt="" /></a></p>
 
 <p>The <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">WWDC 2012 Photo Walk sponsored by 500px</a> was a huge success! We had an incredible turnout that, quite honestly, blew me away.</p>

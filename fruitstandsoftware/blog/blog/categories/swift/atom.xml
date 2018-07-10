@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Swift | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/swift/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/swift/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[GCD in Swift: It Just Works]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2014/06/09/gcd-in-swift-it-just-works/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2014/06/09/gcd-in-swift-it-just-works/"/>
     <updated>2014-06-09T17:02:07-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2014/06/09/gcd-in-swift-it-just-works</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2014/06/09/gcd-in-swift-it-just-works</id>
     <content type="html"><![CDATA[<p>With the awesome announcement of <a href="https://developer.apple.com/swift/">Swift</a> last week, alongside <a href="https://developer.apple.com/technologies/">all of the other incredible announcements,</a> I&rsquo;m sure that your reaction was similar to mine: Where do I begin?!</p>
 
 <p>I&rsquo;ve been reading <a href="https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11">the book</a>, watching <a href="https://developer.apple.com/videos/wwdc/2014/">the sessions</a>, checking out <a href="https://developer.apple.com/library/prerelease/ios/navigation/">the sample code</a>, and basically trying to orient myself with the new syntax as much as possible.</p>

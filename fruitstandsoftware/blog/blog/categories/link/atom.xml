@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Link | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/link/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/link/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Link Dump]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/04/10/link-dump/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/04/10/link-dump/"/>
     <updated>2013-04-10T13:17:18-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/04/10/link-dump</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/04/10/link-dump</id>
     <content type="html"><![CDATA[<p>While going through my <a href="http://getpocket.com">Pocket</a> backlog I read quite a few excellent blog posts that I had saved for later. If you haven&rsquo;t checked these out yet, I highly recommend taking a few moments to do so.</p>
 
 <p><a href="http://jury.me/blog/2013/3/30/mvp">You Need an MVP</a> by <a href="https://alpha.app.net/jury/">Michael Jurewitz</a></p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[WWDC 2012 Photo Walk Wrap-Up]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
     <updated>2012-06-21T10:57:45-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
     <content type="html"><![CDATA[<p><a href="http://500px.com/photo/8672882"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Oakland-Bay-Bridge-Pano.jpg" alt="" /></a></p>
 
 <p>The <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">WWDC 2012 Photo Walk sponsored by 500px</a> was a huge success! We had an incredible turnout that, quite honestly, blew me away.</p>
@@ -55,18 +55,18 @@
   
   <entry>
     <title type="html"><![CDATA[The Definitive WWDC 2012 Party & Event List]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/01/the-definitive-wwdc-2012-party-event-list/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/01/the-definitive-wwdc-2012-party-event-list/"/>
     <updated>2012-06-01T09:16:53-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/01/the-definitive-wwdc-2012-party-event-list</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/01/the-definitive-wwdc-2012-party-event-list</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re going to be in San Francisco during WWDC make sure you check out the <a href="http://macindie.com/2012/05/the-definitive-wwdc12-party-event-list/">Definitive WWDC’12 Party &amp; Event List</a> over on <a href="http://macindie.com/">macindie.com</a>. These guys really stay on top of everything that&rsquo;s happening during the week and it&rsquo;s a great resource for keeping up with the myriad events. You should pay particular attention to Wednesday, it looks like <a href="http://twitter.com/MrRooni">someone</a> scheduled an awesome <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">photography-related event</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[You Should Subscribe to iOS Dev Weekly]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly/"/>
     <updated>2012-05-31T09:36:23-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly</id>
     <content type="html"><![CDATA[<p>My good friend <a href="http://twitter.com/daveverwer">Dave Verwer</a> has taken it upon himself to keep the iOS development community informed of the latest and greatest happenings, <a href="http://iosdevweekly.com/issues/43/">one</a> <a href="http://iosdevweekly.com/issues/42/">weekly</a> <a href="http://iosdevweekly.com/issues/41/">newsletter</a> <a href="http://iosdevweekly.com/issues/40/">at</a> <a href="http://iosdevweekly.com/issues/39/">a</a> <a href="http://iosdevweekly.com/issues/38/">time</a>.</p>
 
 <p>Each newsletter is concise, easily digestible, and always contains at <em>least</em> one link that I want to read. If you&rsquo;re not already subscribed you should head over to <a href="http://iosdevweekly.com/">iosdevweekly.com</a>, put your email address in the box, and click <strong>Subscribe</strong>.</p>
@@ -75,9 +75,9 @@
   
   <entry>
     <title type="html"><![CDATA[“Etched” appearance labels by Mike Abdullah]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/05/30/etched-appearance-labels-by-mike-abdullah/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/05/30/etched-appearance-labels-by-mike-abdullah/"/>
     <updated>2012-05-30T10:57:49-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/05/30/etched-appearance-labels-by-mike-abdullah</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/05/30/etched-appearance-labels-by-mike-abdullah</id>
     <content type="html"><![CDATA[<p>My friend Mike has come up with another gem of a tip, head on over to his blog to see how easy it is to create NSTextFields with an etched appearance: <a href="http://www.mikeabdullah.net/NSBackgroundStyleRaised.html">“Etched” appearance labels</a></p>
 ]]></content>
   </entry>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Cocoa | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/cocoa/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/cocoa/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sponsoring the WWDC 2013 Photo Walk]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk/"/>
     <updated>2013-05-23T15:49:53-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk</id>
     <content type="html"><![CDATA[<p>If you haven&rsquo;t heard, the second annual <a href="http://www.fruitstandsoftware.com/blog/2013/05/wwdc-2013-photo-walk/">WWDC Photo Walk is set for Wednesday June 12th at 6:15 PM</a>. If you&rsquo;d like to sponsor the walk I&rsquo;d love to have you on board. Now you may be asking yourself, &ldquo;Sponsorship? What costs are associated with a photo walk?&rdquo; Well that&rsquo;s the beauty of it, there are none! Sponsorship in this case means having your product or company name listed in the walk details, promoted on the <a href="http://twitter.com/wwdcphotowalk">WWDC Photo Walk Twitter account</a>, and promoted within the <a href="https://app.glassboard.com/web/invitation/code/nyzzu">WWDC Photo Walk Glassboard</a> in exchange for some promo codes or discounts given out to the walk participants.</p>
 
 <p>For instance, last year we had <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">500px sponsor us</a> with one Awesome and one Plus account for the two folks <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk-wrap-up/">whose photos were the best</a>.</p>
@@ -28,9 +28,9 @@
   
   <entry>
     <title type="html"><![CDATA[WWDC 2013 Photo Walk]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/05/23/wwdc-2013-photo-walk/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/wwdc-2013-photo-walk/"/>
     <updated>2013-05-23T15:19:04-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/05/23/wwdc-2013-photo-walk</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/wwdc-2013-photo-walk</id>
     <content type="html"><![CDATA[<p><strong>[Updated] </strong>Last week I put out the call for sponsors and OMGWTFBBQ did people respond. Check out the great list of sponsors for this year&rsquo;s walk, in alphabetical order:</p>
 
 <p><a href="https://agilebits.com/onepassword"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2013/05/1Password.png" alt="1Password" /></a>
@@ -128,9 +128,9 @@
   
   <entry>
     <title type="html"><![CDATA[UITableView and NSFetchedResultsController: Updates Done Right]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/"/>
     <updated>2013-02-19T13:56:05-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right</id>
     <content type="html"><![CDATA[<p>While working on <a href="http://nothirst.com/moneywellexpress/">MoneyWell Express</a> 1.0 I decided to finally sit down and figure out a bug that had plagued me for a long time: Periodic and seemingly random crashes when updating MoneyWell&rsquo;s transaction UITableView. If you&rsquo;ve spent any significant time with UITableView you&rsquo;ve undoubtably seen an error similar to this one:</p>
 
 <pre><code>*** Assertion failure in -[UITableView _endCellAnimationsWithContext:], /SourceCache/UIKit_Sim/UIKit-2380.17/UITableView.m:1070
@@ -397,9 +397,9 @@ plus or minus the number of rows moved into or out of that section (0 moved in, 
   
   <entry>
     <title type="html"><![CDATA[Quick and easy debugging of unrecognized selector sent to instance]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance/"/>
     <updated>2012-08-22T14:13:39-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance</id>
     <content type="html"><![CDATA[<p>It&rsquo;s happened to all of us; we&rsquo;re merrily trucking down the development road, building and testing our app when all of sudden everything grinds to a screeching halt and the console tells us something like:</p>
 
 <p><strong>&ndash;[MoneyWellAppDelegate doThatThingYouDo]: unrecognized selector sent to instance 0xa275230</strong></p>
@@ -427,9 +427,9 @@ plus or minus the number of rows moved into or out of that section (0 moved in, 
   
   <entry>
     <title type="html"><![CDATA[XIBs, Container Views, and Auto Layout (oh my)]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my/"/>
     <updated>2012-07-11T16:23:01-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my</id>
     <content type="html"><![CDATA[<p>While working on a major update for one of our products at <a href="http://nothirst.com/">No Thirst</a> I ran across a small implementation question: In the world of auto layout, if you have a window whose subviews are managed by view controllers, what is the best way to layout these subviews? In the realm of springs and struts the answer is pretty straightforward: You add container views to your window, define their autoresizing masks in the XIB, add your view controller views as subviews of the container views in code, and set their frame sizes to match their container view frame sizes. As long as you set the autoresizing masks of the view controller views to be <strong>NSViewHeightSizable | NSViewWidthSizable</strong> in their XIBs you get the behavior you&rsquo;re expecting and the code is pretty minimal.</p>
 
 <p>[caption id=&ldquo;attachment_605&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;513&rdquo;]<a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/07/ShmetBencherWindow.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/07/ShmetBencherWindow.png" alt="" /></a> This is the window we&rsquo;re trying to create[/caption]</p>

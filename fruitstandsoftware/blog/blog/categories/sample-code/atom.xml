@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Sample Code | Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//blog/categories/sample-code/atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/blog/categories/sample-code/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[UITableView and NSFetchedResultsController: Updates Done Right]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/"/>
     <updated>2013-02-19T13:56:05-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right</id>
     <content type="html"><![CDATA[<p>While working on <a href="http://nothirst.com/moneywellexpress/">MoneyWell Express</a> 1.0 I decided to finally sit down and figure out a bug that had plagued me for a long time: Periodic and seemingly random crashes when updating MoneyWell&rsquo;s transaction UITableView. If you&rsquo;ve spent any significant time with UITableView you&rsquo;ve undoubtably seen an error similar to this one:</p>
 
 <pre><code>*** Assertion failure in -[UITableView _endCellAnimationsWithContext:], /SourceCache/UIKit_Sim/UIKit-2380.17/UITableView.m:1070
@@ -284,9 +284,9 @@ plus or minus the number of rows moved into or out of that section (0 moved in, 
   
   <entry>
     <title type="html"><![CDATA[XIBs, Container Views, and Auto Layout (oh my)]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my/"/>
     <updated>2012-07-11T16:23:01-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my</id>
     <content type="html"><![CDATA[<p>While working on a major update for one of our products at <a href="http://nothirst.com/">No Thirst</a> I ran across a small implementation question: In the world of auto layout, if you have a window whose subviews are managed by view controllers, what is the best way to layout these subviews? In the realm of springs and struts the answer is pretty straightforward: You add container views to your window, define their autoresizing masks in the XIB, add your view controller views as subviews of the container views in code, and set their frame sizes to match their container view frame sizes. As long as you set the autoresizing masks of the view controller views to be <strong>NSViewHeightSizable | NSViewWidthSizable</strong> in their XIBs you get the behavior you&rsquo;re expecting and the code is pretty minimal.</p>
 
 <p>[caption id=&ldquo;attachment_605&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;513&rdquo;]<a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/07/ShmetBencherWindow.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/07/ShmetBencherWindow.png" alt="" /></a> This is the window we&rsquo;re trying to create[/caption]</p>
@@ -363,18 +363,18 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[“Etched” appearance labels by Mike Abdullah]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/05/30/etched-appearance-labels-by-mike-abdullah/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/05/30/etched-appearance-labels-by-mike-abdullah/"/>
     <updated>2012-05-30T10:57:49-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/05/30/etched-appearance-labels-by-mike-abdullah</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/05/30/etched-appearance-labels-by-mike-abdullah</id>
     <content type="html"><![CDATA[<p>My friend Mike has come up with another gem of a tip, head on over to his blog to see how easy it is to create NSTextFields with an etched appearance: <a href="http://www.mikeabdullah.net/NSBackgroundStyleRaised.html">“Etched” appearance labels</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Custom Drawing Using drawRect, Part 1]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/12/18/custom-drawing-using-drawrect-part-1/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/12/18/custom-drawing-using-drawrect-part-1/"/>
     <updated>2009-12-18T21:01:28-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/12/18/custom-drawing-using-drawrect-part-1</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/12/18/custom-drawing-using-drawrect-part-1</id>
     <content type="html"><![CDATA[<p>One of the more advanced techniques for creating custom user interfaces on the Mac is the use of NSView&rsquo;s drawRect method.  Many answers to questions on StackOverflow and Apple&rsquo;s mailing lists include recommendations to &ldquo;just override drawRect and do the drawing yourself&rdquo;.  Some folks see this recommendation and their eyes glaze over, thinking that it&rsquo;s too advanced of a technique for them to wrap their heads around.  Over the next few days I&rsquo;m going to go over some basic techniques that can yield powerful results.</p>
 
 <p>Let&rsquo;s start by setting up the Xcode project that will be the basis of the rest of these posts.</p>
@@ -386,7 +386,7 @@ Unable to interpret '|' character, because the related view doesn't have a super
 </ul>
 
 
-<p><a href="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png" alt="DrawingSample IB Layout" /></a></p>
+<p><a href="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.14.10-PM.png" alt="DrawingSample IB Layout" /></a></p>
 
 <p>Save and Quit Interface Builder and switch back to Xcode.  Open CustomDrawingView.m, it should look like so:</p>
 
@@ -427,15 +427,15 @@ Unable to interpret '|' character, because the related view doesn't have a super
 
 <p>The preceding code, when run, will generate a view that looks like this:</p>
 
-<p><a href="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png"><img src="http://fruitstandsoftware.com/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png" alt="NSRectFill" /></a>Now, this may not look like much, but in future posts we will build on these concepts and, hopefully, by the end have drawn some pretty cool and useful things.</p>
+<p><a href="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png"><img src="https://mrrooni.com/fruitstandsoftware/blog/wp-content/uploads/2009/12/Screen-shot-2009-12-18-at-8.51.12-PM.png" alt="NSRectFill" /></a>Now, this may not look like much, but in future posts we will build on these concepts and, hopefully, by the end have drawn some pretty cool and useful things.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Your New Friends: Obj-C Associated Objects]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2009/08/28/your-new-friends-obj-c-associated-objects/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2009/08/28/your-new-friends-obj-c-associated-objects/"/>
     <updated>2009-08-28T12:32:58-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2009/08/28/your-new-friends-obj-c-associated-objects</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2009/08/28/your-new-friends-obj-c-associated-objects</id>
     <content type="html"><![CDATA[<p>Andy Matuschak has posted a little-known feature of the Objective-C API under Snow Leopard on his blog.  I can&rsquo;t think of a use for associated objects at the moment, but there&rsquo;s a good chance that I will need them in the future.  You can read about them at his blog: <a href="http://blog.andymatuschak.org/post/173646741/your-new-friends-obj-c-associated-objects">Square Signals : Your New Friends: Obj-C Associated Objects</a>.</p>
 ]]></content>
   </entry>

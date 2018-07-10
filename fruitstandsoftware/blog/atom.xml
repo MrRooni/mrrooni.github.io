@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Core Fruition]]></title>
-  <link href="http://fruitstandsoftware.com//atom.xml" rel="self"/>
-  <link href="http://fruitstandsoftware.com//"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/atom.xml" rel="self"/>
+  <link href="https://mrrooni.com/fruitstandsoftware/"/>
   <updated>2014-06-10T09:28:16-04:00</updated>
-  <id>http://fruitstandsoftware.com//</id>
+  <id>https://mrrooni.com/fruitstandsoftware/</id>
   <author>
     <name><![CDATA[Michael Fey]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[GCD in Swift: It Just Works]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2014/06/09/gcd-in-swift-it-just-works/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2014/06/09/gcd-in-swift-it-just-works/"/>
     <updated>2014-06-09T17:02:07-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2014/06/09/gcd-in-swift-it-just-works</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2014/06/09/gcd-in-swift-it-just-works</id>
     <content type="html"><![CDATA[<p>With the awesome announcement of <a href="https://developer.apple.com/swift/">Swift</a> last week, alongside <a href="https://developer.apple.com/technologies/">all of the other incredible announcements,</a> I&rsquo;m sure that your reaction was similar to mine: Where do I begin?!</p>
 
 <p>I&rsquo;ve been reading <a href="https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11">the book</a>, watching <a href="https://developer.apple.com/videos/wwdc/2014/">the sessions</a>, checking out <a href="https://developer.apple.com/library/prerelease/ios/navigation/">the sample code</a>, and basically trying to orient myself with the new syntax as much as possible.</p>
@@ -74,9 +74,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sponsoring the WWDC 2013 Photo Walk]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk/"/>
     <updated>2013-05-23T15:49:53-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/sponsoring-the-wwdc-2013-photo-walk</id>
     <content type="html"><![CDATA[<p>If you haven&rsquo;t heard, the second annual <a href="http://www.fruitstandsoftware.com/blog/2013/05/wwdc-2013-photo-walk/">WWDC Photo Walk is set for Wednesday June 12th at 6:15 PM</a>. If you&rsquo;d like to sponsor the walk I&rsquo;d love to have you on board. Now you may be asking yourself, &ldquo;Sponsorship? What costs are associated with a photo walk?&rdquo; Well that&rsquo;s the beauty of it, there are none! Sponsorship in this case means having your product or company name listed in the walk details, promoted on the <a href="http://twitter.com/wwdcphotowalk">WWDC Photo Walk Twitter account</a>, and promoted within the <a href="https://app.glassboard.com/web/invitation/code/nyzzu">WWDC Photo Walk Glassboard</a> in exchange for some promo codes or discounts given out to the walk participants.</p>
 
 <p>For instance, last year we had <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">500px sponsor us</a> with one Awesome and one Plus account for the two folks <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk-wrap-up/">whose photos were the best</a>.</p>
@@ -87,9 +87,9 @@
   
   <entry>
     <title type="html"><![CDATA[WWDC 2013 Photo Walk]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/05/23/wwdc-2013-photo-walk/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/wwdc-2013-photo-walk/"/>
     <updated>2013-05-23T15:19:04-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/05/23/wwdc-2013-photo-walk</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/05/23/wwdc-2013-photo-walk</id>
     <content type="html"><![CDATA[<p><strong>[Updated] </strong>Last week I put out the call for sponsors and OMGWTFBBQ did people respond. Check out the great list of sponsors for this year&rsquo;s walk, in alphabetical order:</p>
 
 <p><a href="https://agilebits.com/onepassword"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2013/05/1Password.png" alt="1Password" /></a>
@@ -187,9 +187,9 @@
   
   <entry>
     <title type="html"><![CDATA[Link Dump]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/04/10/link-dump/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/04/10/link-dump/"/>
     <updated>2013-04-10T13:17:18-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/04/10/link-dump</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/04/10/link-dump</id>
     <content type="html"><![CDATA[<p>While going through my <a href="http://getpocket.com">Pocket</a> backlog I read quite a few excellent blog posts that I had saved for later. If you haven&rsquo;t checked these out yet, I highly recommend taking a few moments to do so.</p>
 
 <p><a href="http://jury.me/blog/2013/3/30/mvp">You Need an MVP</a> by <a href="https://alpha.app.net/jury/">Michael Jurewitz</a></p>
@@ -204,9 +204,9 @@
   
   <entry>
     <title type="html"><![CDATA[UITableView and NSFetchedResultsController: Updates Done Right]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right/"/>
     <updated>2013-02-19T13:56:05-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2013/02/19/uitableview-and-nsfetchedresultscontroller-updates-done-right</id>
     <content type="html"><![CDATA[<p>While working on <a href="http://nothirst.com/moneywellexpress/">MoneyWell Express</a> 1.0 I decided to finally sit down and figure out a bug that had plagued me for a long time: Periodic and seemingly random crashes when updating MoneyWell&rsquo;s transaction UITableView. If you&rsquo;ve spent any significant time with UITableView you&rsquo;ve undoubtably seen an error similar to this one:</p>
 
 <pre><code>*** Assertion failure in -[UITableView _endCellAnimationsWithContext:], /SourceCache/UIKit_Sim/UIKit-2380.17/UITableView.m:1070
@@ -685,9 +685,9 @@ plus or minus the number of rows moved into or out of that section (0 moved in, 
   
   <entry>
     <title type="html"><![CDATA[Quick and easy debugging of unrecognized selector sent to instance]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance/"/>
     <updated>2012-08-22T14:13:39-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/08/22/quick-and-easy-debugging-of-unrecognized-selector-sent-to-instance</id>
     <content type="html"><![CDATA[<p>It&rsquo;s happened to all of us; we&rsquo;re merrily trucking down the development road, building and testing our app when all of sudden everything grinds to a screeching halt and the console tells us something like:</p>
 
 <p><strong>&ndash;[MoneyWellAppDelegate doThatThingYouDo]: unrecognized selector sent to instance 0xa275230</strong></p>
@@ -715,9 +715,9 @@ plus or minus the number of rows moved into or out of that section (0 moved in, 
   
   <entry>
     <title type="html"><![CDATA[XIBs, Container Views, and Auto Layout (oh my)]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my/"/>
     <updated>2012-07-11T16:23:01-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/07/11/xibs-container-views-and-auto-layout-oh-my</id>
     <content type="html"><![CDATA[<p>While working on a major update for one of our products at <a href="http://nothirst.com/">No Thirst</a> I ran across a small implementation question: In the world of auto layout, if you have a window whose subviews are managed by view controllers, what is the best way to layout these subviews? In the realm of springs and struts the answer is pretty straightforward: You add container views to your window, define their autoresizing masks in the XIB, add your view controller views as subviews of the container views in code, and set their frame sizes to match their container view frame sizes. As long as you set the autoresizing masks of the view controller views to be <strong>NSViewHeightSizable | NSViewWidthSizable</strong> in their XIBs you get the behavior you&rsquo;re expecting and the code is pretty minimal.</p>
 
 <p>[caption id=&ldquo;attachment_605&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;513&rdquo;]<a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/07/ShmetBencherWindow.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/07/ShmetBencherWindow.png" alt="" /></a> This is the window we&rsquo;re trying to create[/caption]</p>
@@ -807,9 +807,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[WWDC 2012 Photo Walk Wrap-Up]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up/"/>
     <updated>2012-06-21T10:57:45-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/21/wwdc-2012-photo-walk-wrap-up</id>
     <content type="html"><![CDATA[<p><a href="http://500px.com/photo/8672882"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Oakland-Bay-Bridge-Pano.jpg" alt="" /></a></p>
 
 <p>The <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">WWDC 2012 Photo Walk sponsored by 500px</a> was a huge success! We had an incredible turnout that, quite honestly, blew me away.</p>
@@ -830,9 +830,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[What To Do If Your Sandboxed Application Shows Up As Not Sandboxed]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/05/what-to-do-if-your-sandbox-application-shows-up-as-not-sandboxed/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/05/what-to-do-if-your-sandbox-application-shows-up-as-not-sandboxed/"/>
     <updated>2012-06-05T19:23:21-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/05/what-to-do-if-your-sandbox-application-shows-up-as-not-sandboxed</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/05/what-to-do-if-your-sandbox-application-shows-up-as-not-sandboxed</id>
     <content type="html"><![CDATA[<p>This afternoon I started working on turning <a href="http://nothirst.com/moneywell/">MoneyWell for Mac</a> into a sandboxed application for our next major release. I watched the <a href="https://developer.apple.com/devcenter/mac/app-sandbox/">intro videos</a>, checked the appropriate checkboxes in Xcode, ran MoneyWell, checked Activity Monitor and saw&hellip;</p>
 
 <p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Activity-Monitor-1-1.jpg"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/Activity-Monitor-1-1.jpg" alt="" /></a></p>
@@ -855,18 +855,18 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[The Definitive WWDC 2012 Party & Event List]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/01/the-definitive-wwdc-2012-party-event-list/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/01/the-definitive-wwdc-2012-party-event-list/"/>
     <updated>2012-06-01T09:16:53-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/01/the-definitive-wwdc-2012-party-event-list</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/01/the-definitive-wwdc-2012-party-event-list</id>
     <content type="html"><![CDATA[<p>If you&rsquo;re going to be in San Francisco during WWDC make sure you check out the <a href="http://macindie.com/2012/05/the-definitive-wwdc12-party-event-list/">Definitive WWDC’12 Party &amp; Event List</a> over on <a href="http://macindie.com/">macindie.com</a>. These guys really stay on top of everything that&rsquo;s happening during the week and it&rsquo;s a great resource for keeping up with the myriad events. You should pay particular attention to Wednesday, it looks like <a href="http://twitter.com/MrRooni">someone</a> scheduled an awesome <a href="http://www.fruitstandsoftware.com/blog/2012/06/wwdc-2012-photo-walk/">photography-related event</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[WWDC 2012 Photo Walk sponsored by 500px]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/06/01/wwdc-2012-photo-walk/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/06/01/wwdc-2012-photo-walk/"/>
     <updated>2012-06-01T06:49:05-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/06/01/wwdc-2012-photo-walk</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/06/01/wwdc-2012-photo-walk</id>
     <content type="html"><![CDATA[<p><strong><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/opproved_500px_fb.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/06/opproved_500px_fb-150x150.png" alt="" /></a></strong></p>
 
 <p><strong>[Updated]</strong> As of this morning our little photo walk has a sponsor! Huge thanks to the guys over at <a href="http://500px.com/">500px</a> for helping out! If you don&rsquo;t have an account on 500px <a href="https://500px.com/signup">go sign up now</a>, it&rsquo;s easily the best photo sharing site on the Internet.</p>
@@ -903,9 +903,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[You Should Subscribe to iOS Dev Weekly]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly/"/>
     <updated>2012-05-31T09:36:23-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/05/31/you-should-subscribe-to-ios-dev-weekly</id>
     <content type="html"><![CDATA[<p>My good friend <a href="http://twitter.com/daveverwer">Dave Verwer</a> has taken it upon himself to keep the iOS development community informed of the latest and greatest happenings, <a href="http://iosdevweekly.com/issues/43/">one</a> <a href="http://iosdevweekly.com/issues/42/">weekly</a> <a href="http://iosdevweekly.com/issues/41/">newsletter</a> <a href="http://iosdevweekly.com/issues/40/">at</a> <a href="http://iosdevweekly.com/issues/39/">a</a> <a href="http://iosdevweekly.com/issues/38/">time</a>.</p>
 
 <p>Each newsletter is concise, easily digestible, and always contains at <em>least</em> one link that I want to read. If you&rsquo;re not already subscribed you should head over to <a href="http://iosdevweekly.com/">iosdevweekly.com</a>, put your email address in the box, and click <strong>Subscribe</strong>.</p>
@@ -914,18 +914,18 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[“Etched” appearance labels by Mike Abdullah]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/05/30/etched-appearance-labels-by-mike-abdullah/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/05/30/etched-appearance-labels-by-mike-abdullah/"/>
     <updated>2012-05-30T10:57:49-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/05/30/etched-appearance-labels-by-mike-abdullah</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/05/30/etched-appearance-labels-by-mike-abdullah</id>
     <content type="html"><![CDATA[<p>My friend Mike has come up with another gem of a tip, head on over to his blog to see how easy it is to create NSTextFields with an etched appearance: <a href="http://www.mikeabdullah.net/NSBackgroundStyleRaised.html">“Etched” appearance labels</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Dash Over to the App Store For a Fast Doc Viewer]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/05/25/dash-over-to-the-app-store-for-a-fast-doc-viewer/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/05/25/dash-over-to-the-app-store-for-a-fast-doc-viewer/"/>
     <updated>2012-05-25T13:54:48-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/05/25/dash-over-to-the-app-store-for-a-fast-doc-viewer</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/05/25/dash-over-to-the-app-store-for-a-fast-doc-viewer</id>
     <content type="html"><![CDATA[<p>A few days ago I started using <a href="http://itunes.apple.com/us/app/dash-docs-snippets/id458034879?mt=12">Dash</a> to view developer documentation. I was immediately blown away by how insanely fast it was. It has quickly become my go-to app for searching and reading documentation. Today I found myself wishing it had better Xcode integration so I checked if the Dash developers had included a system service.</p>
 
 <p>[caption id=&ldquo;attachment_500&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;782&rdquo; caption=&ldquo;The forward-thinking developers of Dash included a system service, huzzah!&rdquo;]<a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/05/Keyboard.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/05/Keyboard.png" alt="" /></a>[/caption]</p>
@@ -940,9 +940,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[Getting More Out of the Xcode Product Menu]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2012/05/24/getting-more-out-of-the-xcode-product-menu/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2012/05/24/getting-more-out-of-the-xcode-product-menu/"/>
     <updated>2012-05-24T20:08:00-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2012/05/24/getting-more-out-of-the-xcode-product-menu</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2012/05/24/getting-more-out-of-the-xcode-product-menu</id>
     <content type="html"><![CDATA[<p>While working on MoneyWell tonight I used a key modifier in Xcode that I&rsquo;m not sure everyone knows exists, but should. If you hold down the Option key on your keyboard while clicking on the Product menu you&rsquo;ll see many of the menu items now show ellipses.</p>
 
 <p>[caption id=&ldquo;attachment_493&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;640&rdquo; caption=&ldquo;The Xcode Product menu as it normally appears.&rdquo;]<a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/05/XcodeProductMenuWithoutOption.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2012/05/XcodeProductMenuWithoutOption.png" alt="" /></a>[/caption]</p>
@@ -957,9 +957,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[WWDC Attendee Guide]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/06/04/wwdc-attendee-guide/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/06/04/wwdc-attendee-guide/"/>
     <updated>2010-06-04T10:37:36-04:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/06/04/wwdc-attendee-guide</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/06/04/wwdc-attendee-guide</id>
     <content type="html"><![CDATA[<p>Last year was my first time attending WWDC and I can easily say that it was one of the most enjoyable weeks of my life. My geek squee didn&rsquo;t shut off from the moment I left SYR until about 3 months after I returned.</p>
 
 <p>I&rsquo;ve been meaning to put together an attendee guide since I got back, so I figured what better time than two days before I leave for WWDC again this year.</p>
@@ -990,9 +990,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[365Cocoa - Day 12: Custom drawing]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/03/11/365cocoa-day-12-custom-drawing/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/03/11/365cocoa-day-12-custom-drawing/"/>
     <updated>2010-03-11T12:55:30-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/03/11/365cocoa-day-12-custom-drawing</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/03/11/365cocoa-day-12-custom-drawing</id>
     <content type="html"><![CDATA[<p>As I have neglected to post the second in my series on Cocoa drawing I&rsquo;d like to point you to 365Cocoa for their next few posts starting with the one linked below. It sounds like they are going to go down the path I intended (and will probably do it better than I could have). Enjoy!</p>
 
 <p><a href="http://365cocoa.tumblr.com/post/439506785/day-12-custom-drawing">365Cocoa &ndash; Day 12: Custom drawing</a>.</p>
@@ -1001,9 +1001,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[Indie+Relief an Amazing Success!]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/01/22/indierelief-an-amazing-success/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/01/22/indierelief-an-amazing-success/"/>
     <updated>2010-01-22T10:31:24-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/01/22/indierelief-an-amazing-success</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/01/22/indierelief-an-amazing-success</id>
     <content type="html"><![CDATA[<p><a href="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/ir_500.png"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/ir_500.png" alt="Indie+Relief Banner" /></a></p>
 
 <p>Many congrats to everyone who participated in Indie+Relief. Over $143,872 was raised for the people of Haiti through various charities!</p>
@@ -1014,9 +1014,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[The Awesomeness That Is Bodega]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/01/17/the-awesomeness-that-is-bodega/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/the-awesomeness-that-is-bodega/"/>
     <updated>2010-01-17T12:18:01-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/01/17/the-awesomeness-that-is-bodega</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/the-awesomeness-that-is-bodega</id>
     <content type="html"><![CDATA[<p><a href="http://appbodega.com/"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/Bodega-300x300.png" alt="" /></a>Let&rsquo;s get one thing out of the way first thing: I&rsquo;m a big fan of <a href="http://appbodega.com/">Bodega</a> and have been since I heard about it firsthand from the guys at <a href="http://centrix.ca/">centrix.ca</a> during WWDC 2009.</p>
 
 <p>Bodega is a free Mac application that helps you discover and download Mac applications. It is built in the spirit of great software sites like <a href="http://www.macupdate.com/">MacUpdate</a>, but takes the experience and puts a great looking Cocoa wrapper around it. Make no mistake, this project is a big undertaking with a lot of moving parts and a lot of coordination between those parts. Yet with steady progress and determination these guys are really crafting something cool.</p>
@@ -1041,9 +1041,9 @@ Unable to interpret '|' character, because the related view doesn't have a super
   
   <entry>
     <title type="html"><![CDATA[Indie+Relief]]></title>
-    <link href="http://fruitstandsoftware.com//blog/2010/01/17/indierelief/"/>
+    <link href="https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/indierelief/"/>
     <updated>2010-01-17T10:23:13-05:00</updated>
-    <id>http://fruitstandsoftware.com//blog/2010/01/17/indierelief</id>
+    <id>https://mrrooni.com/fruitstandsoftware/blog/2010/01/17/indierelief</id>
     <content type="html"><![CDATA[<p><a href="http://indierelief.com/"><img src="http://www.fruitstandsoftware.com/blog/wp-content/uploads/2010/01/ir_500.png" alt="Indie+Relief Banner" /></a></p>
 
 <p>For those that may not have heard, <a href="http://twitter.com/justin">Justin Williams</a> has organized a great effort to provide financial relief to the people of Haiti. Set to take place throughout the day on January 20th, all the proceeds from the sale of participating software will be donated to Haiti. We here at <a href="http://www.nothirst.com/">No Thirst Software</a> are participating with sales of <a href="http://www.nothirst.com/moneywell/">MoneyWell</a> and <a href="http://www.nothirst.com/debtquencher/">Debt Quencher</a>. For a full list of participating software please check out the <a href="http://www.indierelief.com/">Indie+Relief</a> website.</p>
