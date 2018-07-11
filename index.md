@@ -18,4 +18,4 @@ You can download [my vCard here](/media/Michael Fey.vcf). It contains both my wo
 
 ## Fruit Stand Software
 
-For the longest time I had a site over at fruitstandsoftware.com. I've included that content here posthumously: [Fruit Stand Software](/fruitstandsoftware/)
+For the longest time I had a site over at fruitstandsoftware.com. I've included that content here posthumously: [Fruit Stand Software](https://fruitstandsoftware.mrrooni.com)
