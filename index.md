@@ -11,6 +11,7 @@ Hello! This is really just a jumping off point for a bunch of places where you m
 - [MrRooni @ GitHub](https://github.com/MrRooni)
 - [Michael Fey @ LinkedIn](https://www.linkedin.com/in/michaelpfey/)
 - [1Password, the best password manager](https://1password.com?afmc=1d)
+- [HomeKit Builds & Reviews, A site dedicated to building a smart, sensible home using Apple's HomeKit](https://homekitbuilds.mrrooni.com)
 
 ## Getting In Touch
 
