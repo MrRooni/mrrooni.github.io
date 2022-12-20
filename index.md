@@ -2,7 +2,7 @@
 
 Hello! This is really just a jumping off point for a bunch of places where you might find me online:
 
-- [MrRooni @ Twitter](https://twitter.com/MrRooni)
+- <a rel="me" href="https://mastodon.social/@MrRooni">MrRooni @ Mastodon</a>
 - [MrRooni @ Facebook](https://www.facebook.com/mrrooni)
 - [MrRooni @ Instagram](https://www.instagram.com/mrrooni/)
 - [MrRooni @ 500px](http://500px.com/MrRooni)
@@ -10,6 +10,7 @@ Hello! This is really just a jumping off point for a bunch of places where you m
 - [MrRooni @ PlayStation](https://my.playstation.com/profile/MrRooni)
 - [MrRooni @ GitHub](https://github.com/MrRooni)
 - [Michael Fey @ LinkedIn](https://www.linkedin.com/in/michaelpfey/)
+- [MrRooni @ Twitter](https://twitter.com/MrRooni)
 - [1Password, the best password manager](https://1password.com?afmc=1d)
 - [HomeKit Builds & Reviews, A site dedicated to building a smart, sensible home using Apple's HomeKit](https://homekitbuilds.mrrooni.com)
 
