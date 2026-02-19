@@ -1,18 +1,23 @@
-![Michael Fey at Apple Park](/media/MrRooni at Apple Park.jpg)
+<div class="home">
+  <img class="profile-photo" src="/media/MrRooni at Apple Park.jpg" alt="Michael Fey at Apple Park">
+  <p class="home-lead">Hello, I am Michael Fey. This is the central jumping-off point for where you can find me online.</p>
+  <p class="home-copy">I am currently Head of End User Experience at 1Password.</p>
+</div>
 
-Hello! This is really just a jumping off point for a bunch of places where you might find me online:
+## Find Me Online
 
-- <a rel="me" href="https://mastodon.social/@MrRooni">MrRooni @ Mastodon</a>
-- [MrRooni @ Facebook](https://www.facebook.com/mrrooni)
-- [MrRooni @ Instagram](https://www.instagram.com/mrrooni/)
-- [MrRooni @ 500px](http://500px.com/MrRooni)
-- [MrRooni @ Keybase](https://keybase.io/mrrooni)
-- [MrRooni @ PlayStation](https://my.playstation.com/profile/MrRooni)
-- [MrRooni @ GitHub](https://github.com/MrRooni)
-- [Michael Fey @ LinkedIn](https://www.linkedin.com/in/michaelpfey/)
-- [MrRooni @ Twitter](https://twitter.com/MrRooni)
-- [1Password, the best password manager](https://1password.com?afmc=1d)
-- [HomeKit Builds & Reviews, A site dedicated to building a smart, sensible home using Apple's HomeKit](https://homekitbuilds.mrrooni.com)
+<ul class="profile-links">
+  <li><a rel="me" href="https://mastodon.social/@MrRooni">MrRooni @ Mastodon</a></li>
+  <li><a href="https://www.facebook.com/mrrooni">MrRooni @ Facebook</a></li>
+  <li><a href="https://www.instagram.com/mrrooni/">MrRooni @ Instagram</a></li>
+  <li><a href="http://500px.com/MrRooni">MrRooni @ 500px</a></li>
+  <li><a href="https://keybase.io/mrrooni">MrRooni @ Keybase</a></li>
+  <li><a href="https://my.playstation.com/profile/MrRooni">MrRooni @ PlayStation</a></li>
+  <li><a href="https://github.com/MrRooni">MrRooni @ GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/michaelpfey/">Michael Fey @ LinkedIn</a></li>
+  <li><a href="https://1password.com?afmc=1d">1Password</a></li>
+  <li><a href="https://homekitbuilds.mrrooni.com">HomeKit Builds & Reviews</a></li>
+</ul>
 
 ## Getting In Touch
 
