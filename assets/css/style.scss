@@ -128,7 +128,7 @@ body {
   box-shadow: 0 16px 34px rgba(17, 32, 58, 0.18);
   display: block;
   margin: 0 auto;
-  max-width: min(580px, 100%);
+  max-width: min(420px, 100%);
   width: 100%;
 }
 
@@ -211,6 +211,10 @@ body {
     border-radius: 0.9rem;
     margin: -1.6rem 0.8rem 2rem;
     padding: 1rem;
+  }
+
+  .profile-photo {
+    max-width: min(320px, 100%);
   }
 
   .profile-links {
